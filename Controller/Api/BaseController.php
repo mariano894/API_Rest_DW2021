@@ -2,7 +2,7 @@
 class BaseController
 {
     /**
-     * __call magic method.
+     * __call all other unknown action if called!
      */
     public function __call($name, $arguments)
     {
